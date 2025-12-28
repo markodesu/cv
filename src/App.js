@@ -113,6 +113,18 @@ function App() {
                 <li>Configured and replaced network equipment, assisted with network and telephone wiring, and performed system backups using Acronis True Image.</li>
               </ul>
             </div>
+
+            <div className="experience-item">
+              <div className="experience-header">
+                <h3 className="job-title">Research Contributor</h3>
+                <span className="job-period">2024</span>
+              </div>
+              <p className="company-name">International Journal of Science Education</p>
+              <ul className="job-description">
+                <li>Contributed to data collection for a peer-reviewed study published in International Journal of Science Education (Taylor & Francis, 2024).</li>
+                <li>Acknowledged contributor in the publication.</li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -143,6 +155,60 @@ function App() {
               <p className="education-details">
                 <li>Completed secondary education with focus on science and mathematics.</li>
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Certifications Section */}
+        <section className="section" id="certifications">
+          <h2 className="section-title">Certifications</h2>
+          <p className="section-subtitle">Professional credentials and completed courses</p>
+          <div className="section-content">
+            <div className="certification-item">
+              <h3 className="certification-title">Advanced React</h3>
+              <p className="certification-issuer">Meta (2024)</p>
+            </div>
+            <div className="certification-item">
+              <h3 className="certification-title">Spring Framework Specialization</h3>
+              <p className="certification-issuer">LearnQuest (2024)</p>
+            </div>
+            <div className="certification-item">
+              <h3 className="certification-title">Programming with JavaScript</h3>
+              <p className="certification-issuer">Meta (2024)</p>
+            </div>
+            <div className="certification-item">
+              <h3 className="certification-title">Inheritance & Data Structures in Java</h3>
+              <p className="certification-issuer">University of Pennsylvania (2024)</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Languages Section */}
+        <section className="section" id="languages">
+          <h2 className="section-title">Languages</h2>
+          <p className="section-subtitle">Fluency and proficiency levels</p>
+          <div className="section-content">
+            <div className="languages-grid">
+              <div className="language-item">
+                <h3 className="language-name">Kyrgyz</h3>
+                <p className="language-level">Native</p>
+              </div>
+              <div className="language-item">
+                <h3 className="language-name">Russian</h3>
+                <p className="language-level">Fluent</p>
+              </div>
+              <div className="language-item">
+                <h3 className="language-name">English</h3>
+                <p className="language-level">Fluent</p>
+              </div>
+              <div className="language-item">
+                <h3 className="language-name">Turkish</h3>
+                <p className="language-level">Advanced</p>
+              </div>
+              <div className="language-item">
+                <h3 className="language-name">German</h3>
+                <p className="language-level">Intermediate</p>
+              </div>
             </div>
           </div>
         </section>

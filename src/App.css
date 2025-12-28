@@ -367,6 +367,73 @@
   line-height: 1.8;
 }
 
+/* Certifications Styles */
+.certification-item {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.certification-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.1);
+  transform: translateY(-4px);
+}
+
+.certification-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.5rem 0;
+}
+
+.certification-issuer {
+  color: #667eea;
+  font-weight: 500;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Languages Styles */
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.language-item {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.language-item:hover {
+  border-color: #764ba2;
+  box-shadow: 0 8px 30px rgba(118, 75, 162, 0.1);
+  transform: translateY(-4px);
+}
+
+.language-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.5rem 0;
+}
+
+.language-level {
+  color: #764ba2;
+  font-weight: 500;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
 /* Skills Styles */
 .skills-grid {
   display: grid;
@@ -575,6 +642,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .languages-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .main-content {
     padding: 4rem 2rem;
   }
@@ -628,6 +699,10 @@
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .languages-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .main-content {
