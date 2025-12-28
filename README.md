@@ -32,9 +32,8 @@ To add your images, place them in the `public/images/` directory with the follow
 
 - **Profile Photo**: `profile.jpg` (recommended size: 400x400px, square)
 - **Project Images**: 
-  - `project1.jpg` (recommended size: 600x400px) - Medical Chatbot
-  - `project2.jpg` (recommended size: 600x400px) - Production Dashboards
-  - `project3.jpg` (recommended size: 600x400px) - Personal Projects/GitHub
+  - `project1.jpg` (recommended size: 600x400px)
+  - `project2.jpg` (recommended size: 600x400px)
 - **Gallery Images**:
   - `gallery1.jpg` (recommended size: 400x400px)
   - `gallery2.jpg` (recommended size: 400x400px)
