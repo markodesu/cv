@@ -52,6 +52,27 @@
   color: #667eea;
 }
 
+.navbar-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-social-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #667eea;
+  border-radius: 6px;
+}
+
+.navbar-social-link:hover {
+  background: #667eea;
+  color: white;
+}
+
 /* Hero Section - Split Screen */
 .hero-section {
   display: grid;
@@ -328,6 +349,17 @@
   color: #764ba2;
   font-weight: 500;
   margin-bottom: 1rem;
+}
+
+.institution-link {
+  color: #764ba2;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.institution-link:hover {
+  border-bottom-color: #764ba2;
 }
 
 .education-details {

@@ -21,18 +21,32 @@ function App() {
             <li><a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>Skills</a></li>
             <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
           </ul>
+          <div className="navbar-social">
+            <a href="https://github.com/markodesu" target="_blank" rel="noopener noreferrer" className="navbar-social-link">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/mariiam-raiimzhanova-37bba625b" target="_blank" rel="noopener noreferrer" className="navbar-social-link">
+              LinkedIn
+            </a>
+            <a href="https://codeforces.com/profile/markodesu" target="_blank" rel="noopener noreferrer" className="navbar-social-link">
+              Codeforces
+            </a>
+            <a href="mailto:rr.otaku@gmail.com" className="navbar-social-link">
+              Email
+            </a>
+          </div>
         </div>
       </nav>
 
       {/* Hero Section - Split Screen */}
       <section className="hero-section" id="home">
         <div className="hero-left">
-          <div className="hero-badge">It's me</div>
+          <div className="hero-badge">🇰🇬 From Kyrgyzstan</div>
           <h1 className="hero-name">Mariiam Raiimzhanova</h1>
           <p className="hero-title">
             Computer Science Student | <span className="highlight-blue">IT Intern</span> | <span className="highlight-purple">Developer</span>
           </p>
-          <a href="#contact" className="hero-cta" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Hire Me</a>
+          <a href="mailto:rr.otaku@gmail.com" className="hero-cta">Get in Touch</a>
         </div>
         <div className="hero-right">
           <div className="hero-image-wrapper">
@@ -112,7 +126,7 @@ function App() {
                 <h3 className="degree">Bachelor's Degree in Computer Science</h3>
                 <span className="education-period">2022 - 2027 (including prep year)</span>
               </div>
-              <p className="institution">University of Central Asia</p>
+              <p className="institution"><a href="https://www.ucentralasia.org/" target="_blank" rel="noopener noreferrer" className="institution-link">University of Central Asia</a></p>
               <p className="education-details">
                 <li>Coursework in programming, data structures, object-oriented design, web development, databases, and computer systems.</li>
                 <li>Completed practical projects involving software development, system design, and data-driven applications.</li>
