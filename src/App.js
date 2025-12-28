@@ -128,6 +128,65 @@ function App() {
           </div>
         </section>
 
+        {/* Projects Section */}
+        <section className="section" id="projects">
+          <h2 className="section-title">Featured Projects</h2>
+          <p className="section-subtitle">Some of my recent work and achievements</p>
+          <div className="section-content">
+            <div className="projects-grid">
+              <div className="project-card">
+                <div className="project-image-container">
+                      <a href="https://daa-dip-dashboard.vercel.app/daa" target="_blank" rel="noopener noreferrer">
+                        <img 
+                          src="/images/dashboard.png" 
+                          alt="Dashboard Project" 
+                          className="project-image"
+                          onError={(e) => {
+                            e.target.style.display = 'none';
+                            e.target.nextSibling.style.display = 'flex';
+                          }}
+                        />
+                      </a>
+                      <div className="project-image-placeholder">
+                        <span>Project Image</span>
+                      </div>
+                    </div>
+                    <h3 className="project-title">
+                      <a href="https://daa-dip-dashboard.vercel.app/daa" target="_blank" rel="noopener noreferrer">Dashboard</a>
+                    </h3>
+                    <p className="project-description">
+                      I have deployed a dashboard using React for the Frontend on Vercel for Design and Analysis of Algorithms course. Click to open.
+                    </p>
+              </div>
+
+              <div className="project-card">
+                <div className="project-image-container">
+                    <a href="https://github.com/markodesu/MediMind" target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src="/images/medchat.png" 
+                        alt="MediMind Project" 
+                        className="project-image"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                          e.target.nextSibling.style.display = 'flex';
+                        }}
+                      />
+                    </a>
+                    <div className="project-image-placeholder">
+                      <span>Project Image</span>
+                    </div>
+                  </div>
+                  <h3 className="project-title">
+                    <a href="https://github.com/markodesu/MediMind" target="_blank" rel="noopener noreferrer">MediMind</a>
+                  </h3>
+                  <p className="project-description">
+                    I have built a medical chatbot using NLP techniques to assist users with health-related questions. Click to view source.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Education Section */}
         <section className="section" id="education">
           <h2 className="section-title">Education</h2>
@@ -136,7 +195,7 @@ function App() {
             <div className="education-item">
               <div className="education-header">
                 <h3 className="degree">Bachelor's Degree in Computer Science</h3>
-                <span className="education-period">2022 - 2027 (including prep year)</span>
+                <span className="education-period">2022 - 2027</span>
               </div>
               <p className="institution"><a href="https://www.ucentralasia.org/" target="_blank" rel="noopener noreferrer" className="institution-link">University of Central Asia</a></p>
               <p className="education-details">
@@ -245,65 +304,6 @@ function App() {
                   <span className="skill-tag">IoT</span>
                   <span className="skill-tag">Linux</span>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Projects Section */}
-        <section className="section" id="projects">
-          <h2 className="section-title">Featured Projects</h2>
-          <p className="section-subtitle">Some of my recent work and achievements</p>
-          <div className="section-content">
-            <div className="projects-grid">
-              <div className="project-card">
-                <div className="project-image-container">
-                      <a href="https://daa-dip-dashboard.vercel.app/daa" target="_blank" rel="noopener noreferrer">
-                        <img 
-                          src="/images/dashboard.png" 
-                          alt="Dashboard Project" 
-                          className="project-image"
-                          onError={(e) => {
-                            e.target.style.display = 'none';
-                            e.target.nextSibling.style.display = 'flex';
-                          }}
-                        />
-                      </a>
-                      <div className="project-image-placeholder">
-                        <span>Project Image</span>
-                      </div>
-                    </div>
-                    <h3 className="project-title">
-                      <a href="https://daa-dip-dashboard.vercel.app/daa" target="_blank" rel="noopener noreferrer">Dashboard</a>
-                    </h3>
-                    <p className="project-description">
-                      I have deployed a dashboard using React for the Frontend on Vercel for Design and Analysis of Algorithms course. Click to open.
-                    </p>
-              </div>
-
-              <div className="project-card">
-                <div className="project-image-container">
-                    <a href="https://github.com/markodesu/MediMind" target="_blank" rel="noopener noreferrer">
-                      <img 
-                        src="/images/medchat.png" 
-                        alt="MediMind Project" 
-                        className="project-image"
-                        onError={(e) => {
-                          e.target.style.display = 'none';
-                          e.target.nextSibling.style.display = 'flex';
-                        }}
-                      />
-                    </a>
-                    <div className="project-image-placeholder">
-                      <span>Project Image</span>
-                    </div>
-                  </div>
-                  <h3 className="project-title">
-                    <a href="https://github.com/markodesu/MediMind" target="_blank" rel="noopener noreferrer">MediMind</a>
-                  </h3>
-                  <p className="project-description">
-                    I have built a medical chatbot using NLP techniques to assist users with health-related questions. Click to view source.
-                  </p>
               </div>
             </div>
           </div>
