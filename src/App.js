@@ -121,7 +121,10 @@ function App() {
               </div>
               <p className="company-name">International Journal of Science Education</p>
               <ul className="job-description">
-                <li>Contributed to data collection for a peer-reviewed study published in International Journal of Science Education (Taylor & Francis, 2024).</li>
+                <li>
+                  Contributed to data collection for a peer-reviewed study published in International Journal of Science Education (Taylor & Francis, 2024). 
+                  <a href="https://doi.org/10.1080/09500693.2024.2354943" target="_blank" rel="noopener noreferrer">View publication (DOI)</a>
+                </li>
                 <li>Acknowledged contributor in the publication.</li>
               </ul>
             </div>
