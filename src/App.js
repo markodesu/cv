@@ -204,7 +204,7 @@ function App() {
                 <div className="project-image-container">
                     <a href="https://med-platform-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
                       <img
-                        src="/images/Screenshot from 2026-02-08 12-43-05.png"
+                        src="/images/med-platform.png"
                         alt="Med Platform"
                         className="project-image"
                         onError={(e) => {
