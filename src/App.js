@@ -14,7 +14,7 @@ function App() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="navbar-content">
-          <a href="#" className="navbar-logo" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>MR</a>
+          <a href="#home" className="navbar-logo" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>MR</a>
           <ul className="navbar-menu">
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
             <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experience</a></li>
