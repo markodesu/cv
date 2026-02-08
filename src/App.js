@@ -91,6 +91,17 @@ function App() {
           <div className="section-content">
             <div className="experience-item">
               <div className="experience-header">
+                <h3 className="job-title">Glocal Insight & Innovation Project</h3>
+                <span className="job-period">Jan 28–30</span>
+              </div>
+              <p className="company-name">International medical convergence challenge (Soonchunhyang Univ., IUK, UCA)</p>
+              <ul className="job-description">
+                <li>Conducted rapid field research in Kyrgyzstan hospitals and developed <strong>K‑Fast Track</strong>: Phase 1 — QR-based digital Medical ID web platform; Phase 2 — planned AI and smartwatch SOS integration.</li>
+                <li>Addressed high stroke fatality linked to limited MRI/CT access; our team was one of three awarded.</li>
+              </ul>
+            </div>
+            <div className="experience-item">
+              <div className="experience-header">
                 <h3 className="job-title">Intern for Smart-Agriculture Plot Project</h3>
                 <span className="job-period">Oct 2025 - Present</span>
               </div>
@@ -128,6 +139,8 @@ function App() {
                 <li>Acknowledged contributor in the publication.</li>
               </ul>
             </div>
+
+            
           </div>
         </section>
 
@@ -184,6 +197,31 @@ function App() {
                   </h3>
                   <p className="project-description">
                     I have built a medical chatbot using NLP techniques to assist users with health-related questions. Click to view source.
+                  </p>
+              </div>
+
+              <div className="project-card">
+                <div className="project-image-container">
+                    <a href="https://med-platform-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="/images/Screenshot from 2026-02-08 12-43-05.png"
+                        alt="Med Platform"
+                        className="project-image"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                          e.target.nextSibling.style.display = 'flex';
+                        }}
+                      />
+                    </a>
+                    <div className="project-image-placeholder">
+                      <span>Project Image</span>
+                    </div>
+                  </div>
+                  <h3 className="project-title">
+                    <a href="https://med-platform-eta.vercel.app/" target="_blank" rel="noopener noreferrer">Med Platform</a>
+                  </h3>
+                  <p className="project-description">
+                    Demo site from the Glocal Insight project — a prototype of the K‑Fast Track medical platform.
                   </p>
               </div>
             </div>

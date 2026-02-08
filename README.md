@@ -78,6 +78,10 @@ The optimized build will be in the `build/` directory.
 - CSS3 with modern features (gradients, backdrop-filter, animations)
 - Responsive design principles
 
+## Selected Highlights
+
+- **Glocal Insight & Innovation Project (Jan 28–30)**: Participated in an international medical convergence challenge with Soonchunhyang University (South Korea), International University of Kyrgyzstan, and the University of Central Asia. Our team researched public and private hospitals in Kyrgyzstan and developed *K‑Fast Track* — a phased solution addressing high stroke fatality due to limited MRI/CT access (Phase 1: QR-based digital Medical ID web platform; Phase 2: planned AI and smartwatch SOS integration). Our team (UCA: Mariiam Raiimzhanova; IUK: Baktybekova Aiym, Asanova Gulbarchyn; SCH: Ahn Yeji, Kim BaekSeon, Jang Eunkyo) was one of three awarded teams. Special thanks to Myrza Karimov for making this possible.
+
 ## Color Scheme
 
 The design uses a beautiful purple gradient theme:
